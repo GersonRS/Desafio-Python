@@ -46,7 +46,7 @@ Bem ... você conseguiu!
   Maior redução nos lucros: setembro de 2013 ($ -2196167)
   ```
 
-* Além disso, seu script final deve imprimir a análise no terminal e exportar um arquivo de texto [relatório.txt] com os resultados.
+* Além disso, seu script final deve imprimir a análise no terminal e exportar um arquivo de texto [relatório.txt](PyFinanceiro/relatório.txt) com os resultados.
 
 ## PyVotação
 
@@ -80,7 +80,7 @@ Bem ... você conseguiu!
   -------------------------
   ```
 
-* Além disso, seu script final deve imprimir a análise no terminal e exportar um arquivo de texto [resultado.txt] com os resultados.
+* Além disso, seu script final deve imprimir a análise no terminal e exportar um arquivo de texto [resultado.txt](PyVotação/resultado.txt) com os resultados.
 
 ## Dicas e considerações
 
