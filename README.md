@@ -78,7 +78,7 @@ Bem ... você conseguiu!
   -------------------------
   Vencedor: Khan
   -------------------------
-  `` `
+  ```
 
 * Além disso, seu script final deve imprimir a análise no terminal e exportar um arquivo de texto [resultado.txt] com os resultados.
 
