@@ -20,7 +20,7 @@ Bem ... você conseguiu!
 
 ## PyFinanceiro
 
-* Neste desafio, você tem a tarefa de criar um script Python para analisar os registros financeiros de sua empresa. Você fornecerá um conjunto de dados financeiros chamado [dados.txt](PyFinanceiro/Resources/dados.txt). O conjunto de dados é composto por duas colunas: `Data` e `Lucros/Perdas`, separados por virgula. (Felizmente, sua empresa tem padrões bastante flexíveis para a contabilidade, então os registros são simples.)
+* Neste desafio, você tem a tarefa de criar um script Python para analisar os registros financeiros de sua empresa. Você fornecerá um conjunto de dados financeiros chamado [dados.txt](PyFinanceiro/Recursos/dados_financeiro.txt). O conjunto de dados é composto por duas colunas: `Data` e `Lucros/Perdas`, separados por virgula. (Felizmente, sua empresa tem padrões bastante flexíveis para a contabilidade, então os registros são simples.)
 
 * Sua tarefa é criar um script Python que analise os registros para calcular cada um das seguintes informações:
 
@@ -52,7 +52,7 @@ Bem ... você conseguiu!
 
 * Neste desafio, você tem a tarefa de ajudar uma pequena cidade rural a modernizar seu processo de contagem de votos. (Até agora, o tio Cleiton vinha contando-os um por um com confiança, mas, infelizmente, sua concentração não é o que costumava ser.)
 
-* Você receberá um conjunto de dados de enquete chamado [dados_eleção.csv](PyVotação/Recursos/dados_eleição.csv). O conjunto de dados é composto por três colunas: `Voter ID`,` County` e `Candidate`. Sua tarefa é criar um script Python que analise os votos e calcule cada uma das seguintes informações:
+* Você receberá um conjunto de dados de enquete chamado [dados_eleção.csv](PyVotacao/Recursos/dados_elecao.txt). O conjunto de dados é composto por três colunas: `Voter ID`,` County` e `Candidate`. Sua tarefa é criar um script Python que analise os votos e calcule cada uma das seguintes informações:
 
   * O número total de votos expressos
 
@@ -80,7 +80,7 @@ Bem ... você conseguiu!
   -------------------------
   ```
 
-* Além disso, seu script final deve imprimir a análise no terminal e exportar um arquivo de texto [resultado.txt](PyVotação/resultado.txt) com os resultados.
+* Além disso, seu script final deve imprimir a análise no terminal e exportar um arquivo de texto [resultado.txt](PyVotacao/resultado.txt) com os resultados.
 
 ## Dicas e considerações
 
