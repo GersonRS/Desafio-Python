@@ -1,1 +1,8 @@
-
+Analise financeira
+----------------------------
+Total de meses: 86
+Total: $ 38382578
+Média: $ 446309.05
+Variação da média: $ -2315.12
+Maior aumento nos lucros: Feb-2012 ($ 1926159)
+Maior redução nos lucros: Sep-2013 ($ -2196167)
