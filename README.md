@@ -52,7 +52,7 @@ Bem ... você conseguiu!
 
 * Neste desafio, você tem a tarefa de ajudar uma pequena cidade rural a modernizar seu processo de contagem de votos. (Até agora, o tio Cleiton vinha contando-os um por um com confiança, mas, infelizmente, sua concentração não é o que costumava ser.)
 
-* Você receberá um conjunto de dados de enquete chamado [dados_eleção.csv](PyVotacao/Recursos/dados_elecao.txt). O conjunto de dados é composto por três colunas: `Voter ID`,` County` e `Candidate`. Sua tarefa é criar um script Python que analise os votos e calcule cada uma das seguintes informações:
+* Você receberá um conjunto de dados de enquete chamado [dados_eleicao.txt](PyVotacao/Recursos/dados_eleicao.txt). O conjunto de dados é composto por três colunas: `ID do eleitor`,` Município` e `Candidato`. Sua tarefa é criar um script Python que analise os votos e calcule cada uma das seguintes informações:
 
   * O número total de votos expressos
 
@@ -81,6 +81,10 @@ Bem ... você conseguiu!
   ```
 
 * Além disso, seu script final deve imprimir a análise no terminal e exportar um arquivo de texto [resultado.txt](PyVotacao/resultado.txt) com os resultados.
+
+## Funcionamento do projeto
+
+
 
 ## Dicas e considerações
 
