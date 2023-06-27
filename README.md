@@ -82,7 +82,79 @@ Bem ... você conseguiu!
 
 * Além disso, seu script final deve imprimir a análise no terminal e exportar um arquivo de texto [resultado.txt](PyVotacao/resultado.txt) com os resultados.
 
-## Funcionamento do projeto
+<!-- SOBRE O PROJETO -->
+
+# Objetivo
+
+O objetivo do 'PyVotação' é facilitar o sistema de contagem de votos de uma pequena cidade, criando um script em Python para fazer todo o processo. Além disso, faz parte de um projeto de estudos de Python, servindo como material de estudo e aprendizado.
+
+# Como Usar
+
+Para utilizar o PyVotação, você deve criar um fork do repositório e cloná-lo no seu ambiente virtual Python. Depois, basta iniciar o arquivo 'main', que se encontra na pasta 'PyVotacao'.
+
+# Funcionamento do Projeto
+
+Para abrir o arquivo em formato de leitura:
+
+    dados = open("PyVotacao/Recursos/dados_eleicao.txt", "r")
+    pula_linha = next(dados) # ignora a primeira linha
+    lista_dados = list(dados.readlines()) # converte em lista
+    dados.close()
+
+Para calcular o total de votos:
+
+    total_votos = len(lista_dados)
+
+Para calcular o percentual de votos, uma função foi definida:
+
+    def calcula_percentual(total_votos, votos_candidato):
+        return (votos_candidato*100)/total_votos
+
+Lista dos candidatos e quantidade de votos que cada um recebeu:
+
+    def contar_votos(arq, candidato):
+        with open("PyVotacao/Recursos/dados_eleicao.txt", "r") as arq:
+            nomes = arq.read()
+        quantidade = nomes.count(candidato)
+        return quantidade
+
+    candidatos = {
+        "Khan": contar_votos(lista_dados, "Khan"),
+        "Correy": contar_votos(lista_dados, "Correy"),
+        "Li": contar_votos(lista_dados, "Li"),
+        "O'Tooley": contar_votos(lista_dados, "O'Tooley")
+    }
+
+Procura o candidato vencedor:
+
+    vencedor = max(candidatos, key=candidatos.get)
+
+Juntando tudo isso, podemos escrever o script e gerar as respostas necessárias. Em seguida, podemos imprimir o resultado utilizando os seguintes códigos: 
+
+    print("Resultados eleitorais")
+    print("-"*25)
+    print(f"Total de votos: {total_votos}")
+    print("-"*25)
+    for candidato, votos in candidatos.items():
+        percentual = calcula_percentual(total_votos, votos)
+        print(f"{candidato}: {percentual:.2f}% ({votos})")
+    print("-"*25)
+    print(f"Vencedor: {vencedor}")
+    print("-"*25)
+
+E para escrever no documento txt, os seguintes códigos são utilizados:
+
+    with open("PyVotacao/resultado.txt", "w") as arquivo:
+        arquivo.write("Resultados eleitorais\n")
+        arquivo.write("-------------------------\n")
+        arquivo.write(f"Total de votos: {total_votos}\n")
+        arquivo.write("-------------------------\n")
+        for candidato, votos in candidatos.items():
+            percentual = calcula_percentual(total_votos, votos)
+            arquivo.write(f"{candidato}: {percentual:.3f}% ({votos})\n")
+        arquivo.write("-------------------------\n")
+        arquivo.write(f"Vencedor: {vencedor}\n")
+        arquivo.write("-------------------------\n")
 
 
 
@@ -101,3 +173,27 @@ Bem ... você conseguiu!
 * Sempre comprometa seu trabalho e faça backups constantes, seja no GitHub ou somente uma pasta no seu computador. Você não quer perder horas de seu trabalho porque não enviou para o GitHub ou salvou a copia do seu projeto a cada meia hora ou algo assim.
 
   * ** Boa Sorte **.
+
+# Licença
+
+<img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361?color=rgb(89,101,224)">
+
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações.
+
+# Contato
+
+Me acompanhe nas redes sociais.
+
+<p align="center">
+
+
+  <a href="https://www.instagram.com/ddavimig/" target="_blank" >
+    <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-ff2b8e?logo=Instagram&logoColor=white"></a>
+
+  <a href="https://www.linkedin.com/in/davimss/" target="_blank" >
+    <img alt="Linkedin" src="https://img.shields.io/badge/-Linkedin-blue?logo=Linkedin&logoColor=white"></a>
+
+  <a href="mailto:davi00msantos@gmail.com" target="_blank" >
+    <img alt="Email" src="https://img.shields.io/badge/-Email-c14438?logo=Gmail&logoColor=white"></a>
+
+</p>
