@@ -2,7 +2,7 @@
 
 ## Background
 
-Bem ... você conseguiu!
+Bem... você conseguiu!
 
 É hora de deixar de lado os simples exercícios e entrar para as grandes ligas. Bem-vindo ao mundo da programação com Python. Neste desafio, você usará os conceitos que aprendeu durante todo o segundo modulo do NExT sobre Python. Os desafios abordados aqui abrangem uma situação do mundo real onde suas novas habilidades de script Python podem ser úteis. Esses desafios estão longe de ser fáceis, então espere muito trabalho pela frente!
 
@@ -86,77 +86,11 @@ Bem ... você conseguiu!
 
 # Objetivo
 
-O objetivo do 'PyVotação' é facilitar o sistema de contagem de votos de uma pequena cidade, criando um script em Python para fazer todo o processo. Além disso, faz parte de um projeto de estudos de Python, servindo como material de estudo e aprendizado.
+O objetivo do 'PyVotação' é facilitar o sistema de contagem de votos de uma pequena cidade, criando um script em Python para fazer todo o processo. Além disso, faz parte de um projeto de estudos de Python, servindo como exercício e material de estudo.
 
 # Como Usar
 
-Para utilizar o PyVotação, você deve criar um fork do repositório e cloná-lo no seu ambiente virtual Python. Depois, basta iniciar o arquivo 'main', que se encontra na pasta 'PyVotacao'.
-
-# Funcionamento do Projeto
-
-Para abrir o arquivo em formato de leitura:
-
-    dados = open("PyVotacao/Recursos/dados_eleicao.txt", "r")
-    pula_linha = next(dados) # ignora a primeira linha
-    lista_dados = list(dados.readlines()) # converte em lista
-    dados.close()
-
-Para calcular o total de votos:
-
-    total_votos = len(lista_dados)
-
-Para calcular o percentual de votos, uma função foi definida:
-
-    def calcula_percentual(total_votos, votos_candidato):
-        return (votos_candidato*100)/total_votos
-
-Lista dos candidatos e quantidade de votos que cada um recebeu:
-
-    def contar_votos(arq, candidato):
-        with open("PyVotacao/Recursos/dados_eleicao.txt", "r") as arq:
-            nomes = arq.read()
-        quantidade = nomes.count(candidato)
-        return quantidade
-
-    candidatos = {
-        "Khan": contar_votos(lista_dados, "Khan"),
-        "Correy": contar_votos(lista_dados, "Correy"),
-        "Li": contar_votos(lista_dados, "Li"),
-        "O'Tooley": contar_votos(lista_dados, "O'Tooley")
-    }
-
-Procura o candidato vencedor:
-
-    vencedor = max(candidatos, key=candidatos.get)
-
-Juntando tudo isso, podemos escrever o script e gerar as respostas necessárias. Em seguida, podemos imprimir o resultado utilizando os seguintes códigos: 
-
-    print("Resultados eleitorais")
-    print("-"*25)
-    print(f"Total de votos: {total_votos}")
-    print("-"*25)
-    for candidato, votos in candidatos.items():
-        percentual = calcula_percentual(total_votos, votos)
-        print(f"{candidato}: {percentual:.2f}% ({votos})")
-    print("-"*25)
-    print(f"Vencedor: {vencedor}")
-    print("-"*25)
-
-E para escrever no documento txt, os seguintes códigos são utilizados:
-
-    with open("PyVotacao/resultado.txt", "w") as arquivo:
-        arquivo.write("Resultados eleitorais\n")
-        arquivo.write("-------------------------\n")
-        arquivo.write(f"Total de votos: {total_votos}\n")
-        arquivo.write("-------------------------\n")
-        for candidato, votos in candidatos.items():
-            percentual = calcula_percentual(total_votos, votos)
-            arquivo.write(f"{candidato}: {percentual:.3f}% ({votos})\n")
-        arquivo.write("-------------------------\n")
-        arquivo.write(f"Vencedor: {vencedor}\n")
-        arquivo.write("-------------------------\n")
-
-
+Para utilizar o PyVotação, você deve criar um fork do repositório e cloná-lo no seu ambiente virtual Python. Depois, basta iniciar o arquivo [main](PyVotacao/main.py), que se encontra na pasta 'PyVotacao'. Ao fazer isso, o resultado no será impresso no terminal e no documento [resultado.txt](PyVotacao/resultado.txt).
 
 ## Dicas e considerações
 
