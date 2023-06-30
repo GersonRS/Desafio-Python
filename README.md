@@ -2,7 +2,7 @@
 
 ## Background
 
-Bem... você conseguiu!
+Bem ... você conseguiu!
 
 É hora de deixar de lado os simples exercícios e entrar para as grandes ligas. Bem-vindo ao mundo da programação com Python. Neste desafio, você usará os conceitos que aprendeu durante todo o segundo modulo do NExT sobre Python. Os desafios abordados aqui abrangem uma situação do mundo real onde suas novas habilidades de script Python podem ser úteis. Esses desafios estão longe de ser fáceis, então espere muito trabalho pela frente!
 
@@ -52,9 +52,9 @@ Bem... você conseguiu!
 
 * Neste desafio, você tem a tarefa de ajudar uma pequena cidade rural a modernizar seu processo de contagem de votos. (Até agora, o tio Cleiton vinha contando-os um por um com confiança, mas, infelizmente, sua concentração não é o que costumava ser.)
 
-* Você receberá um conjunto de dados de enquete chamado [dados_eleicao.txt](PyVotacao/Recursos/dados_eleicao.txt). O conjunto de dados é composto por três colunas: `ID do eleitor`,` Município` e `Candidato`. Sua tarefa é criar um script Python que analise os votos e calcule cada uma das seguintes informações:
+* Você receberá um conjunto de dados de enquete chamado [dados_eleção.csv](PyVotacao/Recursos/dados_elecao.txt). O conjunto de dados é composto por três colunas: `Voter ID`,` County` e `Candidate`. Sua tarefa é criar um script Python que analise os votos e calcule cada uma das seguintes informações:
 
-  * O número total de votos impressos
+  * O número total de votos expressos
 
   * Uma lista completa de candidatos que receberam votos
 
@@ -82,93 +82,6 @@ Bem... você conseguiu!
 
 * Além disso, seu script final deve imprimir a análise no terminal e exportar um arquivo de texto [resultado.txt](PyVotacao/resultado.txt) com os resultados.
 
-<!-- SOBRE O PROJETO -->
-
-# Objetivo
-
-O objetivo do 'PyVotação' é facilitar o sistema de contagem de votos de uma pequena cidade, criando um script em Python para fazer todo o processo. Além disso, faz parte de um projeto de estudos de Python, servindo como exercício e material de estudo.
-
-# Como Usar
-
-Para utilizar o PyVotação, você deve criar um fork do repositório e cloná-lo no seu ambiente virtual Python. Depois, basta iniciar o arquivo [main](PyVotacao/main.py), que se encontra na pasta 'PyVotacao'. Ao fazer isso, o resultado no será impresso no terminal e no documento [resultado.txt](PyVotacao/resultado.txt).
-
-## Histórico de desenvolvimento 
-
-<table>
-    <thead>
-        <th style="width: 25%;">
-            Data
-        </th>
-        <th style="width: 25%;">
-            Versão
-        </th>
-        <th style="width: 25%;">
-            Descrição
-        </th>
-        <th style="width: 25%;">
-            Participantes
-        </th>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                12/06/2023
-            </td>
-            <td>
-                0.1
-            </td>
-            <td>
-                Escrevendo as primeiras linhas do código. Número total de votos impressos.
-            </td>
-            <td>
-                Davi Miguel 
-            </td>
-        </tr>
-        <tr>
-            <td>
-                13/06/2023
-            </td>
-            <td>
-                0.2
-            </td>
-            <td>
-                Início da lista de candidatos que receberam votos e quantidade de votos que cada candidato recebeu.
-            </td>
-            <td>
-                Davi Miguel 
-            </td>
-        </tr>
-        <tr>
-            <td>
-                14/06/2023
-            </td>
-            <td>
-                0.3
-            </td>
-            <td>
-                Conclusão dos itens "2", "3" e "4".
-            </td>
-            <td>
-                Davi Miguel
-            </td>
-        </tr>
-        <tr>
-            <td>
-                15/06/2023
-            </td>
-            <td>
-                0.4
-            </td>
-            <td>
-                Conclusão do último item. Código imprimindo no terminal e no documento [resultado.txt](PyVotacao/resultado.txt).
-            </td>
-            <td>
-                Davi Miguel 
-            </td>
-        </tr>
-    </tbody>
-</table>
-
 ## Dicas e considerações
 
 * Considere o que aprendemos até agora. Até agora, aprendemos como lidar com arquivos; para ler e gravar arquivos em vários formatos; para armazenar conteúdos em variáveis, listas e dicionários; para iterar por meio de estruturas de dados básicas; e depurar ao longo do caminho. Usando o que aprendemos, tente dividir suas tarefas em mini-objetivos discretos (funções). Este será um _muito_ melhor curso de ação do que os exercícios feitos em sala de aula.
@@ -184,27 +97,3 @@ Para utilizar o PyVotação, você deve criar um fork do repositório e cloná-l
 * Sempre comprometa seu trabalho e faça backups constantes, seja no GitHub ou somente uma pasta no seu computador. Você não quer perder horas de seu trabalho porque não enviou para o GitHub ou salvou a copia do seu projeto a cada meia hora ou algo assim.
 
   * ** Boa Sorte **.
-
-# Licença
-
-<img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361?color=rgb(89,101,224)">
-
-Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações.
-
-# Contato
-
-Me acompanhe nas redes sociais.
-
-<p align="center">
-
-
-  <a href="https://www.instagram.com/ddavimig/" target="_blank" >
-    <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-ff2b8e?logo=Instagram&logoColor=white"></a>
-
-  <a href="https://www.linkedin.com/in/davimss/" target="_blank" >
-    <img alt="Linkedin" src="https://img.shields.io/badge/-Linkedin-blue?logo=Linkedin&logoColor=white"></a>
-
-  <a href="mailto:davi00msantos@gmail.com" target="_blank" >
-    <img alt="Email" src="https://img.shields.io/badge/-Email-c14438?logo=Gmail&logoColor=white"></a>
-
-</p>
