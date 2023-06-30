@@ -89,6 +89,15 @@ Bem ... você conseguiu!
 O objetivo do 'PyFinanceiro' é criar um programa capaz de analisar os registros financeiros de uma empresa, de forma que ajude a calcular o período de tempo (meses) e valores investidos nos mesmos, através de um script Python. Além do mais, faz parte de um projeto de estudos que visa treinar e avaliar o desenvolvimento dos envolvidos.
 
 
+## Como Usar 
+
+A fim de empregar o PyFinanceiro, é necessário que se proceda à criação de um Fork do repositório para efetuar a sua clonagem no ambiente virtual Python em que te encontras. Em seguida, basta que dês início ao arquivo main, localizado na pasta 'PyFinanceiro'. Ao efetuar tal ação, o resultado será impresso tanto no terminal quanto no documento denominado resultado.txt.
+
+
+## Histórico de desenvolvimento
+
+
+
 
 ## Dicas e considerações
 
