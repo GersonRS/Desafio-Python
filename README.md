@@ -92,7 +92,7 @@ O objetivo do 'PyVotação' é facilitar o sistema de contagem de votos de uma p
 
 Para utilizar o PyVotação, você deve criar um fork do repositório e cloná-lo no seu ambiente virtual Python. Depois, basta iniciar o arquivo [main](PyVotacao/main.py), que se encontra na pasta 'PyVotacao'. Ao fazer isso, o resultado no será impresso no terminal e no documento [resultado.txt](PyVotacao/resultado.txt).
 
-## Histórico de revisão
+## Histórico de desenvolvimento 
 
 <table>
     <thead>
