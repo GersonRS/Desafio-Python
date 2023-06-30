@@ -92,6 +92,83 @@ O objetivo do 'PyVotação' é facilitar o sistema de contagem de votos de uma p
 
 Para utilizar o PyVotação, você deve criar um fork do repositório e cloná-lo no seu ambiente virtual Python. Depois, basta iniciar o arquivo [main](PyVotacao/main.py), que se encontra na pasta 'PyVotacao'. Ao fazer isso, o resultado no será impresso no terminal e no documento [resultado.txt](PyVotacao/resultado.txt).
 
+## Histórico de revisão
+
+<table>
+    <thead>
+        <th style="width: 25%;">
+            Data
+        </th>
+        <th style="width: 25%;">
+            Versão
+        </th>
+        <th style="width: 25%;">
+            Descrição
+        </th>
+        <th style="width: 25%;">
+            Participantes
+        </th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                12/06/2023
+            </td>
+            <td>
+                0.1
+            </td>
+            <td>
+                Escrevendo as primeiras linhas do código. Número total de votos impressos.
+            </td>
+            <td>
+                Davi Miguel 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                13/06/2023
+            </td>
+            <td>
+                0.2
+            </td>
+            <td>
+                Início da lista de candidatos que receberam votos e quantidade de votos que cada candidato recebeu.
+            </td>
+            <td>
+                Davi Miguel 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                14/06/2023
+            </td>
+            <td>
+                0.3
+            </td>
+            <td>
+                Conclusão dos itens "2", "3" e "4".
+            </td>
+            <td>
+                Davi Miguel
+            </td>
+        </tr>
+        <tr>
+            <td>
+                15/06/2023
+            </td>
+            <td>
+                0.4
+            </td>
+            <td>
+                Conclusão do último item. Código imprimindo no terminal e no documento [resultado.txt](PyVotacao/resultado.txt).
+            </td>
+            <td>
+                Davi Miguel 
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 ## Dicas e considerações
 
 * Considere o que aprendemos até agora. Até agora, aprendemos como lidar com arquivos; para ler e gravar arquivos em vários formatos; para armazenar conteúdos em variáveis, listas e dicionários; para iterar por meio de estruturas de dados básicas; e depurar ao longo do caminho. Usando o que aprendemos, tente dividir suas tarefas em mini-objetivos discretos (funções). Este será um _muito_ melhor curso de ação do que os exercícios feitos em sala de aula.
