@@ -96,6 +96,28 @@ A fim de empregar o PyFinanceiro, é necessário que se proceda à criação de 
 
 ## Histórico de desenvolvimento
 
+  # Data	                             # Descrição                                             #	Participante(s)
+   
+12/06/2023	 |  Dando início às primeiras linhas de códigos; número total de meses       |
+            |  inclusos no conjunto de dados e valor líquido total de lucros/perdas     |       Saulo Santos.
+            |  durante todo o processo. Itens finalizados.	                |
+
+            ------------------------------------------------------------------------
+
+13/06/2023	 |  Tive que criar uma variância usando o Python para calcuar a média das    |
+            |  mudanças em lucros/perdas durante todo o processo."	Saulo Santos.        |       Saulo Santos.
+
+            ------------------------------------------------------------------------
+
+14/06/2023	 |  Finalizei o terceiro item e dei início ao quarto item, que consiste em   |
+            |  calcular a maior redução nas perdas durante o proceso."	Saulo Santos.    |       Saulo Santos.
+
+            ------------------------------------------------------------------------
+
+15/06/2023	 |  Consegui finalizar o item quatro e cinco, assim encerrando o programa,   |
+            |  restando apenas a organização e execução de todos os códigos juntos.     |       Saulo Santos.
+
+            ------------------------------------------------------------------------
 
 
 
