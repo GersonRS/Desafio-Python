@@ -63,8 +63,6 @@ Para utilizar o PyVotação, você deve criar um fork do repositório e cloná-l
                 12/06/2023
             </td>
             <td>
-            </td>
-            <td>
                 Escrevendo as primeiras linhas do código. Número total de votos impressos.
             </td>
             <td>
@@ -74,8 +72,6 @@ Para utilizar o PyVotação, você deve criar um fork do repositório e cloná-l
         <tr>
             <td>
                 13/06/2023
-            </td>
-            <td>
             </td>
             <td>
                 Início da lista de candidatos que receberam votos e quantidade de votos que cada candidato recebeu.
@@ -89,8 +85,6 @@ Para utilizar o PyVotação, você deve criar um fork do repositório e cloná-l
                 14/06/2023
             </td>
             <td>
-            </td>
-            <td>
                 Conclusão dos itens "2", "3" e "4".
             </td>
             <td>
@@ -100,8 +94,6 @@ Para utilizar o PyVotação, você deve criar um fork do repositório e cloná-l
         <tr>
             <td>
                 15/06/2023
-            </td>
-            <td>
             </td>
             <td>
                 Conclusão do último item. Código imprimindo no terminal e no documento resultado.txt.
