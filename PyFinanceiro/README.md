@@ -69,3 +69,29 @@ A fim de empregar o PyFinanceiro, é necessário que se proceda à criação de 
         </tr>
     </tbody>
 </table>
+
+
+
+# Licença
+
+<img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361?color=rgb(89,101,224)">
+
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações.
+
+# Contato
+
+Me acompanhe nas redes sociais.
+
+<p align="center">
+
+
+  <a href="https://www.instagram.com/saulossantos/" target="_blank" >
+    <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-ff2b8e?logo=Instagram&logoColor=white"></a>
+
+  <a href="https://www.linkedin.com/in/saulo-santos-aa1ab2139/" target="_blank" >
+    <img alt="Linkedin" src="https://img.shields.io/badge/-Linkedin-blue?logo=Linkedin&logoColor=white"></a>
+
+  <a href="mailto:saulossants@gmail.com" target="_blank" >
+    <img alt="Email" src="https://img.shields.io/badge/-Email-c14438?logo=Gmail&logoColor=white"></a>
+
+</p>
