@@ -1,3 +1,34 @@
+## PyFinanceiro
+
+* Neste desafio, você tem a tarefa de criar um script Python para analisar os registros financeiros de sua empresa. Você fornecerá um conjunto de dados financeiros chamado [dados.txt](PyFinanceiro/Recursos/dados_financeiro.txt). O conjunto de dados é composto por duas colunas: `Data` e `Lucros/Perdas`, separados por virgula. (Felizmente, sua empresa tem padrões bastante flexíveis para a contabilidade, então os registros são simples.)
+
+* Sua tarefa é criar um script Python que analise os registros para calcular cada um das seguintes informações:
+
+  * O número total de meses incluídos no conjunto de dados
+
+  * O valor total líquido de "Lucros / Perdas" durante todo o período
+
+  * A média das mudanças em "Lucros / Perdas" durante todo o período
+
+  * O maior aumento nos lucros (data e valor) durante todo o período
+
+  * A maior redução nas perdas (data e valor) ao longo de todo o período
+
+* Por exemplo, sua análise deve ser semelhante a esta abaixo:
+
+  ```text
+  Analise financeira
+  ----------------------------
+  Total de meses: 86
+  Total: $ 38382578
+  Variação da média: $ -2315,12
+  Maior aumento nos lucros: fevereiro de 2012 ($ 1926159)
+  Maior redução nos lucros: setembro de 2013 ($ -2196167)
+  ```
+
+* Além disso, seu script final deve imprimir a análise no terminal e exportar um arquivo de texto [relatório.txt](PyFinanceiro/relatório.txt) com os resultados.
+
+
 ## Objetivo
 
 O objetivo do 'PyFinanceiro' é criar um programa capaz de analisar os registros financeiros de uma empresa, de forma que ajude a calcular o período de tempo (meses) e valores investidos nos mesmos, através de um script Python. Além do mais, faz parte de um projeto de estudos que visa treinar e avaliar o desenvolvimento dos envolvidos.
