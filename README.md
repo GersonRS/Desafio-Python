@@ -82,6 +82,8 @@ Bem ... você conseguiu!
 
 * Além disso, seu script final deve imprimir a análise no terminal e exportar um arquivo de texto [resultado.txt](PyVotacao/resultado.txt) com os resultados.
 
+
+
 ## Dicas e considerações
 
 * Considere o que aprendemos até agora. Até agora, aprendemos como lidar com arquivos; para ler e gravar arquivos em vários formatos; para armazenar conteúdos em variáveis, listas e dicionários; para iterar por meio de estruturas de dados básicas; e depurar ao longo do caminho. Usando o que aprendemos, tente dividir suas tarefas em mini-objetivos discretos (funções). Este será um _muito_ melhor curso de ação do que os exercícios feitos em sala de aula.
